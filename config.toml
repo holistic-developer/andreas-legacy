@@ -1,4 +1,4 @@
-baseURL = 'http://andreas.taranetz.com/'
+baseURL = 'https://andreas.taranetz.com/'
 languageCode = 'en-us'
 languageName = "English"
 title = 'Andreas Taranetz'
@@ -183,7 +183,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  title shown in home page (HTML format is supported)
       title = "Hi I'm Andreas"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = 'I&#39;m a software engineer working <a href="https://www.dynatrace.com/" target="_blank">@dynatrace</a> and on this page I share my thoughts on all things around software engineering'
+      subtitle = 'I&#39;m a software engineer working at <a href="https://www.dynatrace.com/" target="_blank">dynatrace</a> and on this page I share my thoughts on all things software engineering.'
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links

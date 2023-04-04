@@ -4,7 +4,7 @@ It is built with [hugo](https://gohugo.io/) using the theme [LoveIt] (https://hu
 
 Some features of this team require **hugo extended** version.
 
-→ DEV container coming soon.
+Either install *hugo extended version* locally or build a dev container from the included specs.
 
 ## How to build locally
 
