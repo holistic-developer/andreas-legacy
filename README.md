@@ -25,7 +25,7 @@ hugo serve --disableFastRender -D
 To publish it, first generate the page again, then push it to the `gh-pages` branch.
 
 ```bash
-hugo --minify
-git subtree push --prefix public origin gh-pages
-
+hugo --gc --minify
+git subtree split --prefix=public --branch gh-pages
+git push --force origin gh-pages:gh-pages
 ```
