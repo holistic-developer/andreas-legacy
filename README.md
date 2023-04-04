@@ -8,6 +8,11 @@ Either install *hugo extended version* locally or build a dev container from the
 
 ## How to build locally
 
+First download the theme which resides in a git submodule
+```bash
+git submodule init
+```
+
 Hugo has a live development server built in.
 To also see drafts when working on them add -D
 
