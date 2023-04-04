@@ -22,10 +22,8 @@ hugo serve --disableFastRender -D
 
 ## How to publish
 
-To publish it, first generate the page again, then push it to the `gh-pages` branch.
+To publish it, simply generate the page again and push the contents of the docs folder.
 
 ```bash
 hugo --gc --minify
-git subtree split --prefix=public --branch gh-pages
-git push --force origin gh-pages:gh-pages
 ```
