@@ -8,7 +8,7 @@ Either install *hugo extended version* locally or build a dev container from the
 
 ## How to build locally
 
-First download the theme which resides in a git submodule
+First, download the theme which resides in a git submodule
 ```bash
 git submodule init
 ```
@@ -20,7 +20,7 @@ To also see drafts when working on them add -D
 hugo serve --disableFastRender -D
 ```
 
-## How to publish
+## How to Publish
 
 To publish it, simply generate the page again and push the contents of the docs folder.
 

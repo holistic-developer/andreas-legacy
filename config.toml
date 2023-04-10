@@ -29,7 +29,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Andreas Taranetz"
   email = "andreas.taranetz@gmail.com"
-  link = "/whomai"
+  link = "/whoami/"
 
 # Menu config
 [menu]
