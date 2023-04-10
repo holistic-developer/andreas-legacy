@@ -1,8 +1,8 @@
 ---
 title: "whoami"     
 date: 2023-04-10T13:00:00+02:00
-featuredImagePreview: featuredPreview.gif
-featuredImage: featuredPreview.gif
+featuredImagePreview: whoami.gif
+featuredImage: whoami.gif
 ---
 
 ## Let me introduce myself
