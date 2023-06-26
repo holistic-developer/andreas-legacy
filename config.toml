@@ -28,7 +28,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 [author]
   name = "Andreas Taranetz"
-  email = "andreas.taranetz@gmail.com"
+  email = "andreas.taranetz+blog@gmail.com"
   link = "/whoami/"
 
 # Menu config
@@ -275,7 +275,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     HackTheBox = ""
     RootMe= ""
     Phone = ""
-    Email = "andreas.taranetz@gmail.com"
+    Email = "andreas.taranetz+blog@gmail.com"
     RSS = true # 
 
   #  Page global config
