@@ -1,4 +1,72 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Andreas Taranetz</title><link>https://andreas.taranetz.com/</link><description>Andreas Taranetz' blog about interesting things around software development</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</managingEditor><webMaster>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</webMaster><lastBuildDate>Mon, 10 Apr 2023 13:00:00 +0200</lastBuildDate><atom:link href="https://andreas.taranetz.com/index.xml" rel="self" type="application/rss+xml"/><item><title>whoami</title><link>https://andreas.taranetz.com/whoami/</link><pubDate>Mon, 10 Apr 2023 13:00:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://andreas.taranetz.com/whoami/</guid><description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Andreas Taranetz</title><link>https://andreas.taranetz.com/</link><description>Andreas Taranetz' blog about interesting things around software development</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</managingEditor><webMaster>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</webMaster><lastBuildDate>Thu, 29 Jun 2023 20:26:00 +0200</lastBuildDate><atom:link href="https://andreas.taranetz.com/index.xml" rel="self" type="application/rss+xml"/><item><title>What may we call you?</title><link>https://andreas.taranetz.com/what-may-we-call-you/</link><pubDate>Thu, 29 Jun 2023 20:26:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://andreas.taranetz.com/what-may-we-call-you/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/hello.png" referrerpolicy="no-referrer">
+            </div><p>It shouldn&rsquo;t surprise you when I tell you that some websites are collecting too much data about you.
+Aside from the obvious privacy issue, this is also a security issue.
+You can invest in your security as much as you want and never be 100% safe, but:</p>
+<blockquote>
+<p>You cannot lose what you do not possess.</p>
+</blockquote>
+<p>First of all, I have to admit that I made this mistake myself in one of my first projects.
+I am writing this, so you don&rsquo;t have to make the same mistake.</p>
+<h2 id="whats-the-matter">What&rsquo;s the matter?</h2>
+<p>I&rsquo;ve once been working for a startup called <a href="https://kiweno.com/en/" target="_blank" rel="noopener noreffer ">kiweno</a> which sells test kits for things like food intolerances.
+Like many other websites, they want their users to create an account so all the information from various products can be linked together.
+Here is what a part of the registration form looks like:</p>
+<p><figure><a class="lightgallery" href="./kiweno-registration-form-large.png" title="./kiweno-registration-form.png" data-thumbnail="./kiweno-registration-form-small.png" data-sub-html="<h2>Registration form asking the user for forename, surname, phone number and gender</h2>">
+        
+    </a><figcaption class="image-caption">Registration form asking the user for forename, surname, phone number and gender</figcaption>
+    </figure>
+The form is in German, because this company only targeted the german speaking market.
+So in addition to asking for a username and a strong password, the page wanted to know your forename, surname, phone number and gender if you choose to tell them.</p>
+<h2 id="whats-wrong-with-that">What&rsquo;s wrong with that?</h2>
+<p><a href="https://gdpr-info.eu/art-5-gdpr/" target="_blank" rel="noopener noreffer ">Article 5 (c) of the GDPR</a> states that</p>
+<blockquote>
+<p>Personal data shall be: adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed.</p>
+</blockquote>
+<p>This is also called the <strong>principle of data minimization</strong>.
+In simple terms, this means:</p>
+<blockquote>
+<p>Don&rsquo;t ask for more data than you need [for your product to work]</p>
+</blockquote>
+<p>To reiterate my point from the intro:  The less data you have, the smaller is the risk for your users, should your service get breached.
+Let&rsquo;s look into what could be done better with this principle in mind.</p>
+<h3 id="communication-channels">Communication channels</h3>
+<p>Of course, you almost always need some communication channel to contact your users, but one should be enough to sign up.
+In the beginning, the phone number was not mandatory.
+To my surprise, the large majority of users still filled in this information since they were asked to.</p>
+<p>Having only one input field that ask for <strong>either email or phone</strong> number might be a bit harder to process, but it would make it clear to the user that they do not have to provide both.
+The option to fill in the other form of contact could be added on a profile page.</p>
+<h3 id="why-even-ask-for-a-gender">Why even ask for a gender?</h3>
+<p>In the case of the gender field, the option to not answer is even preselected.
+Still, against the default bias, the large majority gave away this information.
+Given the medical context, some users might be confused whether this field requires their biological gender, or the gender they identify with.
+In both cases there are to few options.</p>
+<p>There are some products of kiweno now where your biological gender is required to get a better result.
+However, the actual explanation as to why this is already asked at signup is (as so often in software) for legacy reasons.</p>
+<p>In the beginning, the assumption was to require this information to correctly address people in e-mails and other form of communication.
+Since in German you would use &ldquo;Sehr geehrter Herr&rdquo; / &ldquo;Sehr geehrte Frau&rdquo; in place of &ldquo;Dear&rdquo;.
+Later, the marketing team made the great decision to drop this formal tone and use a more informal you (&ldquo;du&rdquo;, which is gender-neutral in German) to address users.</p>
+<blockquote>
+<p>Get rid of your prototypes while you can, or they will haunt you.</p>
+</blockquote>
+<h3 id="names-are-hard">Names are hard</h3>
+<p>Having two separate fields for fore- and surname gives the impression that a user&rsquo;s real name is required.
+This might be the case for a bill or shipping address, but - depending on how purchases are processed - this might never need to be persisted in your own system.
+I would recommend any startup to let your payment provider deal with this kind of data.</p>
+<p>Similar to the gender, the name fields were initially introduced to address users correctly in email conversations.
+But again, it is not that simple for all people.
+Not every culture uses names the same way.
+E.g.: In Spain it is common two have two surnames, one of each parent.
+Read the <a href="https://en.wikipedia.org/wiki/Personal_name" target="_blank" rel="noopener noreffer ">wikipedia</a> if you want to go all the way down this rabbit hole.</p>
+<p>If the real name of a user is not important to you for legal reasons, I would recommend you to use a single text field asking them <em>&ldquo;What may we call you&rdquo;</em>.
+Make sure you reserve enough space in your database so especially my Austrian folks can enter all their acumulated titles.</p>
+<h2 id="how-could-we-do-better">How could we do better?</h2>
+<p>If there is no immediate use of the data for your product, don&rsquo;t ask for it in advance.</p>
+<p>Be aware of how you communicate to your users what kind of data you require from them.</p>
+<p>Make it obvious how important or unimportant the accuracy of every field is.
+E.g.: don&rsquo;t use a date picker for a birthdate, when the year suffices.</p>
+<p>Even if your only target a specific market (e.g.: only German-speaking users), be mindful of users of other cultures that might also are a part of this group.</p>
+]]></description></item><item><title>whoami</title><link>https://andreas.taranetz.com/whoami/</link><pubDate>Mon, 10 Apr 2023 13:00:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://andreas.taranetz.com/whoami/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/whoami.gif" referrerpolicy="no-referrer">
             </div><h2 id="let-me-introduce-myself">Let me introduce myself</h2>
 <p>As you might have read in the title and the domain name, my name is Andreas and I am working as a software developer.
