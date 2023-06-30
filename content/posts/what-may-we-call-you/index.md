@@ -3,6 +3,7 @@ title: "What may we call you?"
 date: 2023-06-29T20:26:00+02:00
 featuredImagePreview: hello.png
 featuredImage: hello.png
+summary: In this post I point out everything I did wrong about the sign up page of a startup I once worked for. Also it should be a reminder to be more mindful of the data we ask of our users.
 ---
 
 It shouldn't surprise you when I tell you that some websites are collecting too much data about you.
