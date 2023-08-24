@@ -2,7 +2,7 @@
 
 It is built with [hugo](https://gohugo.io/) using the theme [LoveIt] (https://hugoloveit.com/)
 
-Some features of this team require **hugo extended** version.
+Some features of this theme require **hugo extended** version.
 
 Either install *hugo extended version* locally or build a dev container from the included specs.
 
