@@ -1,5 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Andreas Taranetz</title><link>https://andreas.taranetz.com/</link><description>Andreas Taranetz' blog about interesting things around software development</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</managingEditor><webMaster>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</webMaster><lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://andreas.taranetz.com/index.xml" rel="self" type="application/rss+xml"/><item><title>The duty to forget</title><link>https://andreas.taranetz.com/the-duty-to-forget/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://andreas.taranetz.com/the-duty-to-forget/</guid><description><![CDATA[<div class="featured-image">
-                <img src="/drop-inactive-users.png" referrerpolicy="no-referrer">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Andreas Taranetz</title><link>https://holistic-developer.github.io/andreas-legacy/</link><description>Andreas Taranetz' blog about interesting things around software development</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</managingEditor><webMaster>andreas.taranetz+blog@gmail.com (Andreas Taranetz)</webMaster><lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0200</lastBuildDate><atom:link href="https://holistic-developer.github.io/andreas-legacy/index.xml" rel="self" type="application/rss+xml"/><item><title>The duty to forget</title><link>https://holistic-developer.github.io/andreas-legacy/the-duty-to-forget/</link><pubDate>Fri, 25 Aug 2023 00:00:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://holistic-developer.github.io/andreas-legacy/the-duty-to-forget/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/andreas-legacy/drop-inactive-users.png" referrerpolicy="no-referrer">
             </div><h2 id="whats-the-issue-this-time">What&rsquo;s the issue this time?</h2>
 <p>I recently checked <a href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreffer ">Have I Been Pawned</a> to see where my email addresses have been leaked.
 (You should do so as well after reading this!)
@@ -108,8 +108,8 @@ In contrast, Sikhism has 26 million members worldwide, and it is an official rel
 <p>Even though I do not collect any data about you, I&rsquo;ll keep you all as <em>readers in spirit</em>.
 And remember: Thou shalt not share your data.
 Now go forth in privacy.</p>
-]]></description></item><item><title>What may we call you?</title><link>https://andreas.taranetz.com/what-may-we-call-you/</link><pubDate>Thu, 29 Jun 2023 20:26:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://andreas.taranetz.com/what-may-we-call-you/</guid><description><![CDATA[<div class="featured-image">
-                <img src="/hello.png" referrerpolicy="no-referrer">
+]]></description></item><item><title>What may we call you?</title><link>https://holistic-developer.github.io/andreas-legacy/what-may-we-call-you/</link><pubDate>Thu, 29 Jun 2023 20:26:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://holistic-developer.github.io/andreas-legacy/what-may-we-call-you/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/andreas-legacy/hello.png" referrerpolicy="no-referrer">
             </div><p>It shouldn&rsquo;t surprise you when I tell you that some websites are collecting too much data about you.
 Aside from the obvious privacy issue, this is also a security issue.
 You can invest in your security as much as you want and never be 100% safe, but:</p>
@@ -176,8 +176,8 @@ Make sure you reserve enough space in your database so especially my Austrian fo
 <p>Make it obvious how important or unimportant the accuracy of every field is.
 E.g.: don&rsquo;t use a date picker for a birthdate, when the year suffices.</p>
 <p>Even if your only target a specific market (e.g.: only German-speaking users), be mindful of users of other cultures that might also are a part of this group.</p>
-]]></description></item><item><title>whoami</title><link>https://andreas.taranetz.com/whoami/</link><pubDate>Mon, 10 Apr 2023 13:00:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://andreas.taranetz.com/whoami/</guid><description><![CDATA[<div class="featured-image">
-                <img src="/whoami.gif" referrerpolicy="no-referrer">
+]]></description></item><item><title>whoami</title><link>https://holistic-developer.github.io/andreas-legacy/whoami/</link><pubDate>Mon, 10 Apr 2023 13:00:00 +0200</pubDate><author>Andreas Taranetz</author><guid>https://holistic-developer.github.io/andreas-legacy/whoami/</guid><description><![CDATA[<div class="featured-image">
+                <img src="/andreas-legacy/whoami.gif" referrerpolicy="no-referrer">
             </div><h2 id="let-me-introduce-myself">Let me introduce myself</h2>
 <p>As you might have read in the title and the domain name, my name is Andreas and I am working as a software developer.
 To share a bit about me, here are a few of my personal preferences:</p>
@@ -193,7 +193,7 @@ To share a bit about me, here are a few of my personal preferences:</p>
 <li>The right amount of wheels on a bike: [<a href="https://qu-ax.de/catalog/Muni-Starter-406-mm-20-black" target="_blank" rel="noopener noreffer ">1</a>&hellip;<a href="https://www.babboecargobike.com/babboe-curve" target="_blank" rel="noopener noreffer ">3</a>]</li>
 </ul>
 <h2 id="frontend-or-backend-developer">Frontend or backend developer?</h2>
-<p>Yes! ☺</p>
+<p>Yes! :smiling_face:</p>
 <p>In the past, I had the opportunity to work on projects where I was involved in all layers of the stack. From the sizing of the servers up to the spacing of buttons. My ultimate goal would be to become a holistic developer, someone who is knowledgeable about all aspects of software development. Think BizDevSecOps+.</p>
 <p>The platform I like to develop for mostly is the browser (of course some more than others).
 Although I can justifiably call myself a <a href="https://github.com/holistic-developer/shout-it-out-loud" target="_blank" rel="noopener noreffer ">Rockstar developer</a> the main languages I work in are Typescript and Java.</p>

@@ -1,4 +1,4 @@
-baseURL = 'https://andreas.taranetz.com/'
+baseURL = 'https://holistic-developer.github.io/andreas-legacy/'
 languageCode = 'en-us'
 languageName = "English"
 title = 'Andreas Taranetz'
@@ -29,7 +29,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Andreas Taranetz"
   email = "andreas.taranetz+blog@gmail.com"
-  link = "/whoami/"
+  link = "https://andreas.taranetz.com"
 
 # Menu config
 [menu]
@@ -76,7 +76,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Andreas Taranetz' blog about interesting things around software development"
   # website images for Open Graph and Twitter Cards
-  images = ["/images/andreas.webp"]
+  images = ["/andreas-legacy/images/andreas.webp"]
 
   # Header config
   [params.header]
@@ -180,7 +180,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/andreas.webp"
+      avatarURL = "/andreas-legacy/images/andreas.webp"
       #  title shown in home page (HTML format is supported)
       title = "Hi I'm Andreas"
       # subtitle shown in home page (HTML format is supported)
@@ -472,7 +472,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       [params.page.seo.publisher]
         name = "Andreas Taranetz"
-        logoUrl = "/images/andreas.webp"
+        logoUrl = "/andreas-legacy/images/andreas.webp"
 
   #  TypeIt config
   [params.typeit]
